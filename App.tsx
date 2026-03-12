@@ -47,25 +47,25 @@ const C = {
 
 // Photos réelles du Domaine Taluau-Foltzenlogel
 const IMAGES = {
-  hero: '/taluau/6syg9mu2g9lk16ryryijjp_TZRxp63bv.webp',
-  family: '/taluau/famille-taluau-foltzenlogel.webp',
-  terroir1: '/taluau/6syg9mu2g9lk16ryryijjp_TZRxp63bv.webp',
-  terroir2: '/taluau/vigne-domaine-taluau-foltzenlogel.webp',
-  terroir3: '/taluau/la-taille-des-vignes-a-bourgueil.webp',
-  vigneron1: '/taluau/famille-taluau-foltzenlogel.webp',
-  vigneron2: '/taluau/chai-taluau-foltzenlogel.webp',
-  vigneron3: '/taluau/la-taille-des-vignes-a-bourgueil.webp',
-  chai: '/taluau/chai-taluau-foltzenlogel.webp',
-  tank: '/taluau/q8ibbpfsrng2jufudypvo_D5h6l8yXh.webp',
+  hero: 'https://assets.evolusite.fr/1/6syg9mu2g9lk16ryryijjp_TZRxp63bv.png',
+  family: 'https://assets.evolusite.fr/ik-seo/1/ud5882i9lmplkfk8dkqr_THz8Nakc0/famille-taluau-foltzenlogel.jpg',
+  terroir1: 'https://assets.evolusite.fr/1/6syg9mu2g9lk16ryryijjp_TZRxp63bv.png',
+  terroir2: 'https://assets.evolusite.fr/ik-seo/1/ifdvl4kytmlndr9xi6yu5_baKVvkRHL/vigne-domaine-taluau-foltzenlogel.jpg',
+  terroir3: 'https://assets.evolusite.fr/ik-seo/1/qpkfx55th8wlz1w87cez_L6wSzRM9C/la-taille-des-vignes-a-bourgueil.jpg',
+  vigneron1: 'https://assets.evolusite.fr/ik-seo/1/ud5882i9lmplkfk8dkqr_THz8Nakc0/famille-taluau-foltzenlogel.jpg',
+  vigneron2: 'https://assets.evolusite.fr/ik-seo/1/ifdvl4kytmlndr9xi6yu5_baKVvkRHL/vigne-domaine-taluau-foltzenlogel.jpg',
+  vigneron3: 'https://assets.evolusite.fr/ik-seo/1/qpkfx55th8wlz1w87cez_L6wSzRM9C/la-taille-des-vignes-a-bourgueil.jpg',
+  chai: 'https://assets.evolusite.fr/1/q8ibbpfsrng2jufudypvo_D5h6l8yXh.png',
+  tank: 'https://assets.evolusite.fr/1/q8ibbpfsrng2jufudypvo_D5h6l8yXh.png',
 };
 
 // Cuvées réelles du Domaine Taluau-Foltzenlogel
 const featuredWines = [
-  { name: 'Le Vau Jaumier', cuvee: 'Coteaux argilo-calcaires', appellation: 'AOP Saint-Nicolas-de-Bourgueil', price: '12,50 €', vintage: 2022, image: '/taluau/nbl653dzyehptv8so6wh99_soEGh57Ut.webp', badge: 'Signature', poem: 'Charnu et équilibré, aux notes de fruits rouges et d\'épices douces.' },
-  { name: 'Vieilles Vignes', cuvee: 'Vignes de plus de 50 ans', appellation: 'AOP Saint-Nicolas-de-Bourgueil', price: '14,00 €', vintage: 2021, image: '/taluau/nkaj3xmrnvjo95wzjgdngt7_pKXzI-qx8.webp', badge: 'Coup de cœur', poem: 'Concentré et profond, expression maximale du Cabernet Franc.' },
-  { name: "L'Insoumise", cuvee: 'Sélection parcellaire', appellation: 'AOP Saint-Nicolas-de-Bourgueil', price: '15,50 €', vintage: 2021, image: '/taluau/n8zixrrzcq7bs2ujhrhuuim_sztDqd0VX9.webp', poem: 'Caractère affirmé, tanins soyeux, finale longue et persistante.' },
-  { name: "L'Expression", cuvee: 'Terroir argilo-sableux', appellation: 'AOP Saint-Nicolas-de-Bourgueil', price: '13,00 €', vintage: 2022, image: '/taluau/nbi07vuduokcs6lcpl65v0i_sya4UmJEP.webp', poem: "La quintessence du Saint-Nicolas, frais et floral." },
-  { name: 'Bourgueil Passion', cuvee: 'AOP Bourgueil · tuffeau', appellation: 'AOP Bourgueil', price: '11,50 €', vintage: 2022, image: '/taluau/nwr4uevp7nvl95veeobn1m8_lt6ZiZ_1sw.webp', badge: 'Accessible', poem: 'Souple, fruité, idéal pour la table du quotidien.' },
+  { name: 'Le Vau Jaumier', cuvee: 'Coteaux argilo-calcaires', appellation: 'AOP Saint-Nicolas-de-Bourgueil', price: '12,50 €', vintage: 2022, image: 'https://assets.evolusite.fr/1/nbl653dzyehptv8so6wh99_soEGh57Ut.png', badge: 'Signature', poem: 'Charnu et équilibré, aux notes de fruits rouges et d\'épices douces.' },
+  { name: 'Vieilles Vignes', cuvee: 'Vignes de plus de 50 ans', appellation: 'AOP Saint-Nicolas-de-Bourgueil', price: '14,00 €', vintage: 2021, image: 'https://assets.evolusite.fr/1/nkaj3xmrnvjo95wzjgdngt7_pKXzI-qx8.jpeg', badge: 'Coup de cœur', poem: 'Concentré et profond, expression maximale du Cabernet Franc.' },
+  { name: "L'Insoumise", cuvee: 'Sélection parcellaire', appellation: 'AOP Saint-Nicolas-de-Bourgueil', price: '15,50 €', vintage: 2021, image: 'https://assets.evolusite.fr/1/n8zixrrzcq7bs2ujhrhuuim_sztDqd0VX9.jpeg', poem: 'Caractère affirmé, tanins soyeux, finale longue et persistante.' },
+  { name: "L'Expression", cuvee: 'Terroir argilo-sableux', appellation: 'AOP Saint-Nicolas-de-Bourgueil', price: '13,00 €', vintage: 2022, image: 'https://assets.evolusite.fr/1/nbi07vuduokcs6lcpl65v0i_sya4UmJEP.png', poem: "La quintessence du Saint-Nicolas, frais et floral." },
+  { name: 'Bourgueil Passion', cuvee: 'AOP Bourgueil · tuffeau', appellation: 'AOP Bourgueil', price: '11,50 €', vintage: 2022, image: 'https://assets.evolusite.fr/1/nwr4uevp7nvl95veeobn1m8_lt6ZiZ_1sw.jpeg', badge: 'Accessible', poem: 'Souple, fruité, idéal pour la table du quotidien.' },
 ];
 
 const timeline = [

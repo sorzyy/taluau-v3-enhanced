@@ -16,10 +16,10 @@ const F = {
 };
 
 const featuredWines = [
-  { name: 'Le Vau Jaumier', price: '12,50 €', image: '/taluau/nbl653dzyehptv8so6wh99_soEGh57Ut.webp', badge: 'Signature' },
-  { name: 'Vieilles Vignes', price: '14,00 €', image: '/taluau/nkaj3xmrnvjo95wzjgdngt7_pKXzI-qx8.webp', badge: 'Coup de cœur' },
-  { name: "L'Insoumise", price: '15,50 €', image: '/taluau/n8zixrrzcq7bs2ujhrhuuim_sztDqd0VX9.webp', badge: 'Nouveau' },
-  { name: "L'Expression", price: '13,00 €', image: '/taluau/nbi07vuduokcs6lcpl65v0i_sya4UmJEP.webp', badge: null },
+  { name: 'Le Vau Jaumier', price: '12,50 €', image: 'https://assets.evolusite.fr/1/nbl653dzyehptv8so6wh99_soEGh57Ut.png', badge: 'Signature' },
+  { name: 'Vieilles Vignes', price: '14,00 €', image: 'https://assets.evolusite.fr/1/nkaj3xmrnvjo95wzjgdngt7_pKXzI-qx8.jpeg', badge: 'Coup de cœur' },
+  { name: "L'Insoumise", price: '15,50 €', image: 'https://assets.evolusite.fr/1/n8zixrrzcq7bs2ujhrhuuim_sztDqd0VX9.jpeg', badge: 'Nouveau' },
+  { name: "L'Expression", price: '13,00 €', image: 'https://assets.evolusite.fr/1/nbi07vuduokcs6lcpl65v0i_sya4UmJEP.png', badge: null },
 ];
 
 export function MegaMenu({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
